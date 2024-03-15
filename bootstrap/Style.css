@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --brown: brown;
+}
+
+body{
+    overflow-X: hidden;
+}
+
+#logo {
+    width: 100%;
+    height: 160px;
+}
+
+ul li {
+    font-size: 18px;
+}
+
+li i {
+    color: rgb(107, 105, 103);
+}
+
+#contact {
+    background-color: brown;
+    color: white;
+}
+
+#contact:hover {
+    background-color: white;
+    color: brown;
+    border-color: brown;
+}
+
+@media(min-width:992px) {
+    ul {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media(max-width:992px) {
+    li i {
+        visibility: hidden;
+    }
+}
+
+.main {
+    background-image: url("./img/647f5a2d3c3dbd89a2ba8aea_2023NewProducts_Header_Homepage_1920x1080.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.331);
+}
+
+.welcome {
+    padding-top: 16%;
+    padding-left: 8%;
+}
+
+.welcome p {
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+.welcome h1 {
+    font-size: 120px;
+    font-weight: 500px;
+    color: aliceblue;
+}
+
+@media(max-width:600px) {
+    .welcome h1 {
+        font-size: 50px;
+    }
+}
+
+#contactbtn {
+    color: aliceblue;
+    border-color: aliceblue;
+    font-size: 20px;
+}
+
+#WHEAD {
+    text-align: center;
+    margin-top: 30PX;
+}
+
+.wbutton {
+    color: var(--brown);
+    border-color: var(--brown);
+    padding: 15px;
+
+}
+
+.wbutton:hover {
+    color: white;
+    background-color: var(--brown);
+
+}
+
+#about {
+    background-color: rgba(217, 214, 214, 0.942);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#about-img {
+    border: 7px solid var(--brown);
+    height: 480PX;
+    width: 100%;
+
+}
+
+.BAR {
+    background-color: var(--brown);
+    height: 7PX;
+    width: 20%;
+
+}
+
+.btn-sub {
+    color: white;
+    background-color: var(--brown);
+    border: 7px;
+    border-color: white;
+}
+
+.btn-sub:hover {
+    color: var(--brown);
+    background-color: rgba(217, 214, 214, 0.942);
+
+}
+.project-img{
+    position: relative;
+}
+.tag{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.text-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 8%;
+}

@@ -1,0 +1,9 @@
+.container{
+    position: relative;
+}
+.container img{
+    position: absolute;
+}
+#s1{
+    z-index: 1;
+}

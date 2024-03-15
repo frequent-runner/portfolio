@@ -1,0 +1,248 @@
+* {
+    font-family: "Kode Mono", monospace;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+
+}
+.navbar1 {
+    display: flex;/*to make side by side display*/
+    width: 85%;
+    justify-content: space-between;/*space between child tags*/
+    align-items: center;/*vertically center*/
+    margin-left: 150px;
+}
+#logo {
+    width: 130px;
+    margin-left: -100px;
+}
+
+.listitem {
+    display: inline-flex;
+    /*place each elements side by side*/
+    list-style: none;
+    /*remove list styles*/
+    margin: 10px 20px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    /*to remove underline*/
+    font-weight: bold;
+}
+
+.link:hover {
+    color: red;
+}
+
+.title {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+#download {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+.imagegroup {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 2s;
+}
+
+.images:hover #girl {
+    left: 40%;
+}
+
+.images:hover #shape {
+    bottom: 50px;
+}
+/*about*/
+#About {
+    margin: 25% 8% 0% 8%;
+}
+
+.heading {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 35px;
+}
+
+.heading span {
+    font-size: 25px;
+    color: green;
+}
+.aboutcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /*1fr=225px*/
+    gap: 30px;
+
+}
+.aboutimg img{
+    width: 90%;
+}
+.aboutdetails{
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.aboutdetails {
+    margin-top: 40px;
+    text-align: justify;
+    font-weight: 600;
+}
+.aboutdetails p{
+    text-align: justify;
+}
+.information{
+    margin-top: 20px;
+}
+.infobox{
+    margin-bottom: 30px;
+
+}
+.infobox span{
+    margin-left: 15px;
+}
+/*skill*/
+#skill{
+    margin: 5% 8% 0% 5%;
+}
+.skillcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem; /*1rem=16px*/
+    margin-top: 10px;
+}
+.skillimage img{
+    width: 600px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.barcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0px;
+    margin-bottom: 2rem;
+    align-items: center;
+    position: relative;
+}
+.barcontainer span{
+    font-size: 20px;
+    font-weight: 600px;
+}
+.barbox{
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.htmlbar{
+    background-color: orange;
+    width: 95%;
+}
+.cssbar{
+    background-color: orange;
+    width: 88%;
+}
+.jssbar{
+    background-color: orange;
+    width: 85%;
+}
+.reactbar{
+    background-color: orange;
+    width: 91%;
+}
+/*contact*/
+.ICON-LIST{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.ICON,.uparrow{
+    height: 50px;
+    width: 50px;
+    /*border: 1px solid;*/
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 0px 10px;
+}
+.ICON i{
+    font-size: 30px;
+    color: black;
+}
+.ICON:hover{
+    background-image: linear-gradient(to top left,rgb(253, 72, 16),yellow)  ;
+}
+.ICON:hover I{
+    color: white;
+    animation: SHAKE 0.75S;
+}
+@keyframes SHAKE{
+    10%{
+        transform: rotate(15DEG);
+    }
+    20%{
+        transform: rotate(-15DEG);
+    }
+    30%{
+        transform: rotate(15DEG);
+    }
+    40%{
+        transform: rotate(-15DEG);
+    }
+}
+footer{
+    margin: 50px 0px;
+
+}
+footer p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px; 
+}
+.uparrow{
+    float: right;
+    margin: 30px 20px 30px 0px;
+    background-image: linear-gradient(to top left,rgb(253, 72, 16),yellow)  ;
+
+}
+.uparrow:hover i{
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}

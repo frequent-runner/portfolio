@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#logo{
+    height: 200px;
+}
+
+ul li{
+    font-size: 20px;
+}
+ul i{
+    color: rgb(23, 2, 7);
+}    
+
+#contact{
+    color:rgba(255, 255, 255, 0.989);
+    background-color: rgb(198, 153, 40);
+}
+#contact:hover{
+    background-color: white;
+    color: rgb(255, 191, 0);
+    border-color: rgb(90, 22, 22) ;
+}
+@media(min-width:992px){
+    ul {
+        align-items: center;
+        display: flex;
+    }
+}
+@media(max-width:992px){
+   .nav-item i{
+        display: none;
+    }
+}
+.main{
+    background-image: url('./img/647f5a2d3c3dbd89a2ba8aea_2023NewProducts_Header_Homepage_1920x1080.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(108, 82, 82, 0.331);
+}
+.welcome{
+    padding-top: 20%;
+    padding-left: 5%;
+}
+
+.welcome p{
+   color:white;
+   font-size: 30px;
+
+}
+.welcome h1{
+    color: rgb(206, 206, 206);
+    font-size: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 50px;
+}
+@media(max-width:600px){
+    .welcome p{
+        padding-top: 20%;
+    }
+    .welcome h1{
+        font-size: 50px;
+
+    }
+}
+#contactbtn{
+    color: white;
+    border-color: white;
+    font-size: 20px;
+}
+#work{
+    text-align: center;
+}

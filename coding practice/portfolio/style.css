@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+}
+.conatiner{
+    height: 100VH;
+    width: 100%;
+    position: relative;
+}
+.nav-bar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 150px;
+    margin-left:30px ;
+}
+.text{
+    display: inline-block;
+    margin-left: 50px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight:bold ;
+}
+.link:hover{
+    color: red;
+}
+.heading{
+    margin-left: 130px;
+    margin-top: 200px;
+}
+.cv{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    display: block;
+    width: 130px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.Image{
+    position: absolute;
+    margin-bottom: -10px;
+    right: 16%;
+    bottom: 0px;
+    height: 85%;
+    width: 25%;
+
+}
+.img-group{
+    position: absolute;
+    height: 90%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s,left 2s;
+    
+}
+.Image:hover #shape{
+    bottom: 70px;
+
+}
+.Image:hover #girl{
+    left: 130px;
+}
+.header{
+    margin-top: 300px;
+    text-align: center;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
